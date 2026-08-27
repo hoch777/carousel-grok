@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "myspacet карусели",
+      "hasCanvas": false,
+      "bodyTextLen": 6605,
+      "bodyTextHash": "1ca93e50936ade29a2512fac32a5b3c98f41077ad7dcd3b76357a9ceb345ee87",
+      "bodyTextPrefix": "@MYSPACET_AI Светлая карусель с настоящими иконками Lucide для U",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "myspacet карусели",
+      "hasCanvas": false,
+      "bodyTextLen": 6605,
+      "bodyTextHash": "1ca93e50936ade29a2512fac32a5b3c98f41077ad7dcd3b76357a9ceb345ee87",
+      "bodyTextPrefix": "@MYSPACET_AI Светлая карусель с настоящими иконками Lucide для U",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

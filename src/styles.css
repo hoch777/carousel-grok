@@ -1,0 +1,42 @@
+@import "@fontsource-variable/plus-jakarta-sans";
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f4f4f2;
+  --color-surface: #ffffff;
+  --color-fg: #111111;
+  --color-muted: #5a5a5a;
+  --color-orange: #ff6b2c;
+  --color-orange-soft: #fff0e8;
+  --color-sage: #6b8e6b;
+  --color-sage-soft: #ebf1eb;
+  --color-green: #2e9b5e;
+  --color-green-soft: #e6f6ec;
+  --color-red: #e03e3e;
+  --color-red-soft: #fdecec;
+  --color-border: #e8e8e6;
+  --color-studio: #ecece8;
+  --font-sans: "Plus Jakarta Sans Variable", "Plus Jakarta Sans", system-ui, sans-serif;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 0.875rem;
+  --radius-xl: 1.125rem;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  body {
+    background: var(--color-studio);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+  }
+}
